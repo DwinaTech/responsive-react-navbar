@@ -1,6 +1,6 @@
 # Responsive React Navbar
 
-It created by using React.js and CSS, created for education and learning purpose.
+It created by using React.js, HTML and CSS, created for education and learning purpose.
 
 ## How to develop it
 
