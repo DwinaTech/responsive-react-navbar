@@ -38,7 +38,7 @@ const NavBar = () => {
       <div className="container">
         <div className="wrapper">
           <Link to="/" className="brand">
-            <img src={`${process.env.PUBLIC_URL}/brand.png`} alt="brand" />
+            <h1>Brand</h1>
           </Link>
 
           <div className="menu">
@@ -86,15 +86,6 @@ const NavBar = () => {
                 className={location.pathname === "/contact" ? "active" : ""}
               >
                 Contact
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/product"
-                onClick={handleClose}
-                className={location.pathname === "/product" ? "active" : ""}
-              >
-                Products
               </Link>
             </li>
           </ul>
